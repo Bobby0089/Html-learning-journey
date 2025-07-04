@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Job Application</h1>
+
+    <form >
+
+        <label for="name">Name : </label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email : </label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone : </label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="resume">Resume : </label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <label for="experience">Experience : </label><br>
+        <input type="number" id="experience" name="experience"><br><br>
+
+        <fieldset style="display: inline;">
+            <legend>Skills</legend>
+
+            <input type="checkbox" id="html" name="skill">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="skill">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javascript" name="skill">
+            <label for="javascript">JAVASCRIPT</label>
+        </fieldset><br>
+
+        <label for="education">Highest Education : </label><br>
+        <select name="education" id="education">
+            <option value="highSchool">High School</option>
+            <option value="graduation">Graduation</option>
+            <option value="postGraduation">Post Graduation</option>
+            <option value="masters">Masters</option>
+            <option value="phd">PHD</option>
+        </select><br><br>
+
+        <label>Availability : </label><br>
+        <input type="radio" name="availability" id="fullTime">
+        <label for="">Full Time</label><br>
+        <input type="radio" name="availability" id="partTime">
+        <label for="">Part Time</label><br><br>
+
+        <label for="comments">Additional Comments : </label><br>
+        <textarea name="comments" id="comments"></textarea><br><br>
+
+        <input type="button" value="submit Application">
+        <input type="reset" value="reset">
+
+
+
+    </form>
+</body>
+</html>
