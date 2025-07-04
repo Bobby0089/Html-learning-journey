@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../Lecture01"
+		},
+		{
+			"path": "../Lecture02"
+		},
+		{
+			"path": "../Lecture03"
+		},
+		{
+			"path": "../Lecture04"
+		},
+		{
+			"path": "../Lecture05"
+		},
+		{
+			"path": "../MiniProject"
+		},
+		{
+			"path": "../Lecture06"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Lecture07"
+	}
+}
