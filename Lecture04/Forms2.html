@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset style="display: inline">
+        <legend>HTML Form dummy</legend>
+
+        <fieldset>
+          <label for="datepicker">Choose Date : </label>
+          <input type="date" id="datepicker" />
+        </fieldset>
+
+        <br /><br />
+
+        <fieldset>
+          <legend>Hobbies</legend>
+          <label for="selectgames">Select your Sport : </label>
+          <select name="games" id="selectgames">
+            <option value="cricket">Cricket</option>
+            <option value="football">FootBall</option>
+            <option value="volleyball">VolleyBall</option>
+          </select>
+        </fieldset>
+
+        <br />
+
+        <button>Submit</button>
+
+        <br /><br />
+
+        <label for="textarea1">Enter Discription : </label>
+        <textarea
+          name="textarea1"
+          id="textarea1"
+          placeholder="Discription"
+        ></textarea>
+
+        <br><br>
+
+        <label for="browser">Choose your browser:</label>
+        <input list="browsers" name="browser" id="browser" />
+
+        <datalist id="browsers">
+          <option value="Chrome"></option>
+          <option value="Firefox"></option>
+          <option value="Edge"></option>
+          <option value="Safari"></option>
+          <option value="Brave"></option>
+        </datalist>
+      </fieldset>
+    </form>
+  </body>
+</html>
